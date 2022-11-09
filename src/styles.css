@@ -1,0 +1,57 @@
+html,
+body,
+#root,
+.app,
+.app > div {
+  height: 100%;
+}
+.invisible {
+  display: none;
+}
+#content-body {
+  padding-top: 70px;
+  background-color: #ebeff2;
+  height: 100%;
+}
+@media only screen and (max-width: 990px) {
+  #content-body {
+    padding-top: 55px;
+  }
+}
+.content {
+  padding: 20px 3% 0%;
+}
+.rightFlex {
+  display: flex;
+  justify-content: flex-end;
+}
+.centerFlex {
+  display: flex;
+  justify-content: center;
+}
+.clickThrough {
+  pointer-events: none;
+}
+.clickAble {
+  pointer-events: auto;
+}
+.tabModal {
+  background-color: white;
+  height: 100%;
+  padding: 2%;
+}
+div.react-tel-input input.form-control {
+  width: 100%;
+}
+.iconButton {
+  background-color: transparent;
+  border-style: none;
+}
+.iconButton:hover {
+  background-color: transparent;
+  border-style: none;
+}
+.iconButton:active {
+  background-color: transparent;
+  border-style: none;
+}
